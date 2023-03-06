@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from pypresence import Presence
 
 import time
@@ -40,4 +38,4 @@ def __start__():
         time.sleep(15)
 
 if __name__ == "__main__":
-    __start__():
+    __start__()
