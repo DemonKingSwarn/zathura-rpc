@@ -10,7 +10,7 @@ This project can be installed on to your device via different mechanisms, these 
 
 1. PIP Installs packages aka PIP Installation
 #+begin_src sh
-pip install git+https://github.com/demonkingswarn/zathura-rpc
+pip install zathura-rpc
 #+end_src
 
 2. Source Code Download
