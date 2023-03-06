@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "zathura-rpc"
-version = "0.1.0"
+version = "0.0.1"
 description = "Discord RPC client for zathura."
 authors = ["DemonKingSwarn <rockingswarn@gmail.com>"]
 license = "GPL3"
