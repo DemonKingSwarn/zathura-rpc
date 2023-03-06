@@ -1,0 +1,30 @@
+#+TITLE: zathura-RPC
+#+DESCRIPTION: Discord RPC client for zathura 
+#+AUTHOR: DemonKingSwarn
+
+[[https://github.com/71zenith/zathura-rpc][71zenith's]] zathura-rpc but with python code standards.
+
+* Installation
+
+This project can be installed on to your device via different mechanisms, these mechanisms are listed below in the order of ease.
+
+1. PIP Installs packages aka PIP Installation
+#+begin_src sh
+pip install git+https://github.com/demonkingswarn/zathura-rpc
+#+end_src
+
+2. Source Code Download
+#+begin_src sh
+git clone https://github.com/demonkingswarn/zathura-rpc
+#+end_src
+
+Given that you have [[https://git-scm.com/][git]] installed, you can clone this repository from GitHub. If you do not have or want to
+deal wtih installation of [[https://git-scm.com/][git]], you can simply download the repository using [[https://github.com/demonkingswarn/zathura-rpc/archive/refs/heads/master.zip][this link]].
+
+After the repository is downloaded and placed in an appropriate directory, you can proceed with the installation.
+
+#+begin_src sh
+pip install .
+#+end_src
+
+This command is to be executed from the directory where the repository is located.

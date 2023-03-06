@@ -1,0 +1,19 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "zathura-rpc"
+version = "0.1.0"
+description = "Discord RPC client for zathura."
+authors = ["DemonKingSwarn <rockingswarn@gmail.com>"]
+license = "GPL3"
+readme = "README.md"
+packages = [{include = "zathura_rpc"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pypresence = "^4.2.1"
+
+[tool.poetry.scripts]
+zathura-rpc = "zathura.__main__:__start__"
