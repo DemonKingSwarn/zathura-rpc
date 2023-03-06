@@ -16,4 +16,4 @@ python = "^3.10"
 pypresence = "^4.2.1"
 
 [tool.poetry.scripts]
-zathura-rpc = "zathura.__main__:__start__"
+zathura-rpc = "zathura_rpc.__main__:__start__"
